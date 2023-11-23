@@ -9,5 +9,5 @@ jobs:
       - name: Output information
         run: |
           echo "MY_VAR: $MY_VAR"
-          echo 'MY_VAR: $MY_VAR'
+          echo 'MY_VAR: $MY_VAR' # it does not work
           echo "MY_VAR: ${{ env.MY_VAR }}"
