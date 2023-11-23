@@ -4,7 +4,6 @@ env:
   MY_VAR: my env var
 jobs:
   test:
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Output information
